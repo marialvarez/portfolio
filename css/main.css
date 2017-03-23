@@ -7,34 +7,36 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #ed734b; }
+  background-color: #ff564b;
+  overflow: hidden; }
   header img {
-    width: 480px; }
+    width: 35%; }
   header img:nth-child(1) {
     position: relative;
-    top: -50px;
-    left: 0px;
+    top: -250px;
+    left: -200px;
     float: left; }
   header img:nth-child(2) {
     position: relative;
-    top: -60px;
-    right: 0px;
+    top: -300px;
+    right: -200px;
     float: right; }
   header img:nth-child(3) {
     position: relative;
-    bottom: 102px;
-    left: 0px;
+    bottom: -150px;
+    left: -150px;
     float: left;
     clear: left;
     transform: rotateX(50%); }
   header img:nth-child(4) {
     position: relative;
-    bottom: 82px;
-    right: 0px;
+    bottom: -150px;
+    right: -150px;
     float: right;
     clear: right; }
   header h1 {
     position: relative;
-    top: 45%; }
+    top: 45%;
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
